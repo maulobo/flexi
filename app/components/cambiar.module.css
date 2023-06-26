@@ -1,0 +1,81 @@
+/* Contenedor */
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #e0e2e2;
+  background-image: url(../../assets/banner_cinta_flexi.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.box1 {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.box {
+  padding: 2rem;
+  flex-grow: 1;
+  min-width: 250px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.box2 {
+  flex-grow: 2;
+  min-height: 20vh;
+}
+
+/* Neon */
+.neonText {
+  font-family: "Arial", sans-serif;
+  font-size: 6rem;
+  color: #fff;
+  display: flex;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  letter-spacing: 0.2rem;
+  gap: 1px;
+}
+
+.letter {
+  display: inline-block;
+  color: transparent;
+  -webkit-text-stroke: 4px #ec661b;
+  -webkit-text-fill-color: transparent;
+
+  animation: neon-animation 1.5s ease-in-out infinite alternate;
+}
+.button {
+  padding: 1rem 2rem;
+  font-size: large;
+  background-color: #ec661b;
+  border-radius: 4rem;
+  border: NONE;
+  color: #fff;
+}
+.button2 {
+  padding: 1rem 2rem;
+  font-size: large;
+  background-color: #e0e2e2;
+  border-radius: 4rem;
+  border: NONE;
+  color: #0e004f;
+}
+
+@keyframes neon-animation {
+  from {
+    text-shadow: 0 0 120px var(--myColor-orange), 0 0 20px var(--myColor-orange),
+      0 0 40px var(--myColor-orange);
+  }
+  to {
+    text-shadow: 0 0 20px #ff9900, 0 0 140px #ff9900, 0 0 90px #ff9900;
+  }
+}

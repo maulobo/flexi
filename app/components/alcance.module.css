@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: linear-gradient(to bottom, var(--myColor-orange), #e0e2e2);
+}
+.article {
+  flex-grow: 1;
+  max-width: 50%;
+  text-align: center;
+}

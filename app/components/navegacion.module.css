@@ -1,0 +1,13 @@
+.linkk {
+  color: inherit;
+  text-decoration: inherit;
+}
+.navbar {
+  font-weight: bold;
+  display: flex;
+  gap: 20px;
+}
+.navbar1 {
+  display: flex;
+  justify-content: flex-end !important;
+}

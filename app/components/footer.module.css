@@ -1,0 +1,9 @@
+.footer {
+  background-color: #273069;
+}
+.footer2 {
+  background-image: url(../../assets/footerFlexi.svg);
+  min-height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
